@@ -1,0 +1,60 @@
+.main {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right, rgb(0, 255, 149), rgb(255, 255, 255), rgb(0, 255, 149));
+
+}
+
+
+.container{
+    height:70% ;
+    width: 70%;
+    border: solid;
+    box-shadow: 6px 6px 0 slategray ;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+  .container div {
+    width: 200px;
+    height: 100px; 
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    transition:ease 0.25s;
+    
+    
+  }
+  .container div:hover{
+    background-color: cornsilk;
+    color: black;
+    
+
+}
+
+
+p{  display:flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+  *{
+      padding:0;
+      margin:0;
+  }
+
+
+
+  /* @media all and (max-width:600px) {
+      *{scale: 95%;}
+  } */
