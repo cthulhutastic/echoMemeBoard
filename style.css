@@ -10,7 +10,7 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    background-image: url(/images/echo);
+    background-image: url(images/echo);
 }
 
 
@@ -19,7 +19,7 @@
     height: 635px ;
     border: solid;
     box-shadow: 6px 6px 0 slategray ;
-    background-image: url(/images/echoElite);
+    background-image: url(images/echoElite);
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
